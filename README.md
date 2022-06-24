@@ -1,4 +1,76 @@
-# Trayecto de Formación: FullStack Web Developer :rocket:
+# Trayecto de Formación: FullStack Web Developer :school:
+
+## :books: Comandos utiles para usar GIT
+### :computer: Area de trabajo
+
+*Eliminar archivo*
+
+```bash
+    git rm <nombre del archivo>
+```
+*recuperar archivos eliminados*
+
+ ```bash
+    git restore --staged <nombre del archivo>
+    git restore <nombre del archivo>
+ ```
+
+ *ver los cambios realizados*
+ ```bash
+    git status
+ ```
+ ### :floppy_disk: Area de Staging
+ *mover archivos y modificaciones al area de staging*
+ ```bash
+    git add . 
+ ```
+
+### :computer: Area repositorio local
+
+*mover los archivos y modificaciones al repositorio local (checkpoint)*
+```bash
+    git commit -m "first commit: descripcion"
+ ```
+
+*bajar los cambios al repositorio local*
+```bash
+    git pull <nombre del repositorio remoto>
+ ```
+*ver el historial de commits dos opciones*
+```bash
+    git log
+    git log --oneline
+ ```
+
+ ### :cloud: Area repositorio remoto
+
+ *subir los cambios al repositorio remoto*
+ ```bash
+    git push -u origin main
+ ```
+
+ ### :seedling: Trabajar con Ramas 
+
+*Crear una nueva rama*
+```bash
+    git branch <nombre de nueva rama>
+ ```
+
+ *listar las ramas*
+ ```bash
+    git branch -v
+ ```
+
+ *cambiar la rama actual*
+ ```bash
+    git checkout <nombre de la rama>
+ ```
+
+### :link: Enlaces utiles
+- [guia markdown](https://www.markdownguide.org/basic-syntax/)
+- [emojis markdown](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- [google fonts](https://fonts.google.com)
+- [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 :package: **Módulo 1: Entorno de trabajo y control de versiones**
 
