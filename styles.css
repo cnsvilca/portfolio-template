@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;700;800&display=swap');
 :root {
   --primary-color: #3a3a3a;
-  --primary-color-dark: #237b96;
-  --accent-color: #dde9e9;
+  --primary-color-dark: #a35223;
+  --accent-color: #e9e3dd;
 }
 
 html {
@@ -124,7 +124,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   /* color: var(--accent-color); */
-  color: aqua;
+  color: darkorange;
   letter-spacing: 1px;
 }
 
